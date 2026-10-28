@@ -1,0 +1,47 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* Colors */
+.deep-navy {
+  background-color: #001C55;
+}
+
+.fresh-sky {
+  background-color: #00A7E1;
+}
+
+.lavender-blush {
+  background-color: #F7EBEC;
+}
+
+.royal-plum {
+  background-color: #893168;
+}
+
+/* Tipografía */
+.titulo-skyra {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #172554;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #070707;
+}
+
