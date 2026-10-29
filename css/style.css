@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+/* Transición suave global para cambio de tema */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -27,10 +32,6 @@
   background-color: #F7EBEC;
 }
 
-.deep-navy-text {
-  color: #001C55; 
-}
-
 /* Tipografía */
 .coiny-regular {
   font-family: "Coiny", system-ui;
@@ -48,13 +49,69 @@
   line-height: 30px;
 }
 
-.quicksand-regular-white {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: #fffdfd;
-  line-height: 30px;
+/* Header */
+.logo-header {
+  height: 60px;
+}
+
+/* Modo oscuro global (Fondo y Textos) */
+body.modo-oscuro {
+  background-color: #081226 !important; /* Azul noche profundo de la paleta */
+  color: #f0f4f8 !important;
+}
+
+body.modo-oscuro .quicksand-regular,
+body.modo-oscuro p,
+body.modo-oscuro h6,
+body.modo-oscuro label {
+  color: #f0f4f8 !important;
+}
+
+/* Iconos en modo oscuro en color blanco */
+body.modo-oscuro .material-icons {
+  color: #ffffff !important;
+}
+
+/* Header y Sidenav en modo oscuro */
+body.modo-oscuro nav,
+body.modo-oscuro .sidenav {
+  background-color: #001C55 !important; /* Deep Navy */
+}
+
+body.modo-oscuro .sidenav a {
+  color: #ffffff !important;
+}
+
+/* Tarjetas y Paneles en modo oscuro */
+body.modo-oscuro .card,
+body.modo-oscuro .card-panel {
+  background-color: #0f1c3f !important;
+  color: #f0f4f8 !important;
+  border-color: #1e3366 !important;
+}
+
+body.modo-oscuro .card-stacked .card-content p,
+body.modo-oscuro .card-content p,
+body.modo-oscuro .card-content span {
+  color: #e0e6ed !important;
+}
+
+/* Colecciones en modo oscuro */
+body.modo-oscuro .collection {
+  border-color: #1e3366 !important;
+}
+
+body.modo-oscuro .collection .collection-item {
+  background-color: #0f1c3f !important;
+  color: #f0f4f8 !important;
+  border-bottom: 1px solid #1e3366 !important;
+}
+
+/* Formularios en modo oscuro */
+body.modo-oscuro input,
+body.modo-oscuro textarea {
+  color: #ffffff !important;
+  border-bottom: 1px solid #7F96FF !important;
 }
 
 /* Estilos de la página Avances */
@@ -81,6 +138,11 @@
 /* Color alterno activado por JavaScript (Lavender Blush y borde Wisteria Blue) */
 .tarjeta-avance.color-alterno {
   background-color: #F7EBEC !important;
+  border: 2px solid #7F96FF !important;
+}
+
+body.modo-oscuro .tarjeta-avance.color-alterno {
+  background-color: #192a56 !important;
   border: 2px solid #7F96FF !important;
 }
 

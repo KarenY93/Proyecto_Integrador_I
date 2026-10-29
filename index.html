@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-  <title>Starter Template - Materialize</title>
+  <title>Skyra - Inicio</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- CDN de Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Header cargado dinámicamente -->
   <div id="header"></div>
+
   <div class="container">
     <br>
     <h1 class="center coiny-regular">Descripción del proyecto</h1>
@@ -39,35 +40,39 @@
       </h6>
       <br>
       <div>
-        <img class="responsive-img" src="img\skyra.webp" alt="Logo Skyra">
+        <img class="responsive-img" src="img/skyra.webp" alt="Logo Skyra">
       </div>
     </div>
   </div>
 
+  <!-- Footer con datos de autores -->
   <footer class="page-footer deep-navy">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Autores</h5>
+          <p class="grey-text text-lighten-4">
+            Angel Nicolas Castañeda Valencia 202459426<br>
+            Karen Andrea Sanabria Gonzalez 202459413<br>
+            Simon David Tarazona Melo 202459421
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="quicksand-regular-white">Autores</h5>
-            <p class="quicksand-regular-white">Angel Nicolas Castañeda Valencia - 202459426
-              <br>
-              Karen Andrea Sanabria Gonzalez - 202459413
-              <br>
-              Simon David Tarazona Melo - 202459421
-            </p>
-            Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-          </div>
-        </div>
+        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <!-- CDN de Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script src="js/header.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

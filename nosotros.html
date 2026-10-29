@@ -1,62 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Skyra - Nosotros</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- CDN de Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  
 </head>
+
 <body>
+  <!-- Header cargado dinámicamente -->
   <div id="header"></div>
+
   <div class="container">
     <div class="section">
-
-    <!--   Icon Section   -->
+      <!-- Misión y Visión -->
       <div class="row">
-        <div class="col s20 m6">
+        <div class="col s12 m6">
           <div class="icon-block">
             <h2 class="center deep-navy-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center coiny-regular">Misión</h5>
-
-            <p class="quicksand-regular">Ofrecer servicios de transporte aéreo seguros, accesibles y de calidad, conectando personas y destinos 
+            <p class="quicksand-regular">
+              Ofrecer servicios de transporte aéreo seguros, accesibles y de calidad, conectando personas y destinos 
               mediante una atención cercana, eficiente y comprometida con las necesidades de nuestros pasajeros. Buscamos brindar
-              experiencias de viaje satisfactorias, promoviendo la responsabilidad, la innovación y el respeto por el medio ambiente.</p>
+              experiencias de viaje satisfactorias, promoviendo la responsabilidad, la innovación y el respeto por el medio ambiente.
+            </p>
           </div>
         </div>
 
-        <div class="col s20 m6">
+        <div class="col s12 m6">
           <div class="icon-block">
             <h2 class="center deep-navy-text"><i class="material-icons">group</i></h2>
             <h5 class="center coiny-regular">Visión</h5>
-
-            <p class="quicksand-regular">Ser una aerolínea reconocida por la calidad de sus servicios, la confianza de sus pasajeros y su compromiso con 
+            <p class="quicksand-regular">
+              Ser una aerolínea reconocida por la calidad de sus servicios, la confianza de sus pasajeros y su compromiso con 
               la innovación y la sostenibilidad. Aspiramos a ampliar nuestras conexiones, mejorar continuamente la experiencia de viaje y 
-              convertirnos en una opción preferida por quienes desean explorar el mundo con comodidad y tranquilidad.</p>
+              convertirnos en una opción preferida por quienes desean explorar el mundo con comodidad y tranquilidad.
+            </p>
           </div>
         </div>
-
       </div>
-
     </div>
     <br><br>
-  </div>
 
-        <!--   Integrantes   -->
+    <!-- Integrantes -->
+    <div class="section">
       <h4 class="center coiny-regular">Integrantes del grupo</h4>
       <div class="row">
 
         <div class="col s12 m4">
           <div class="card center-align hoverable">
             <div class="card-content">
-              <img src="img\nicolas.webp" alt="Ángel" class="circle responsive-img" style="max-width:140px;"> 
+              <img src="img/nicolas.webp" alt="Ángel" class="circle responsive-img" style="max-width:140px;"> 
               <span class="card-title coiny-regular">Angel Nicolas Castañeda Valencia</span>
               <p class="grey-text">202459426</p>
               <div class="divider"></div>
@@ -68,7 +71,7 @@
         <div class="col s12 m4">
           <div class="card center-align hoverable">
             <div class="card-content">
-              <img src="img\karen.webp" alt="Karen" class="circle responsive-img" style="max-width:140px;">
+              <img src="img/karen.webp" alt="Karen" class="circle responsive-img" style="max-width:140px;">
               <span class="card-title coiny-regular">Karen Andrea Sanabria Gonzalez</span>
               <p class="grey-text">202459413</p>
               <div class="divider"></div>
@@ -80,7 +83,7 @@
         <div class="col s12 m4">
           <div class="card center-align hoverable">
             <div class="card-content">
-              <img src="img\simon.webp" alt="Simon" class="circle responsive-img" style="max-width:140px;">
+              <img src="img/simon.webp" alt="Simon" class="circle responsive-img" style="max-width:140px;">
               <span class="card-title coiny-regular">Simon David Tarazona Melo</span>
               <p class="grey-text">202459421</p>
               <div class="divider"></div>
@@ -90,15 +93,37 @@
         </div>
 
       </div>
-
     </div>
     <br><br>
   </div>
 
-  <!--  Scripts-->
+  <!-- Footer con datos de autores -->
+  <footer class="page-footer deep-navy">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Autores</h5>
+          <p class="grey-text text-lighten-4">
+            Angel Nicolas Castañeda Valencia 202459426<br>
+            Karen Andrea Sanabria Gonzalez 202459413<br>
+            Simon David Tarazona Melo 202459421
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <!-- CDN de Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script src="js/header.js"></script>
 </body>
+
 </html>

@@ -1,11 +1,8 @@
-
-<nav class="wisteria-blue" role="navigation">
+<nav id="barra-navegacion" class="wisteria-blue" role="navigation">
   <div class="nav-wrapper container">
 
     <a href="index.html" class="brand-logo">
-      <img src="img\skyra_logo.webp"
-           alt="Logo Skyra"
-           style="height: 60px;">
+      <img src="img\skyra_logo.webp" alt="Logo Skyra" class="logo-header">
     </a>
 
     <ul class="right hide-on-med-and-down">
@@ -14,10 +11,15 @@
       <li><a href="objetivos.html">Objetivos</a></li>
       <li><a href="avances.html">Avances</a></li>
       <li><a href="contacto.html">Contacto</a></li>
+      <!-- Botón de Modo Oscuro / Claro -->
+      <li>
+        <a href="#!" id="btn-modo-tema" title="Cambiar modo oscuro / claro">
+          <i class="material-icons" id="icono-tema">brightness_4</i>
+        </a>
+      </li>
     </ul>
 
-    <a href="#" data-target="nav-mobile"
-       class="sidenav-trigger">
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger">
       <i class="material-icons">menu</i>
     </a>
 
@@ -30,4 +32,11 @@
   <li><a href="objetivos.html">Objetivos</a></li>
   <li><a href="avances.html">Avances</a></li>
   <li><a href="contacto.html">Contacto</a></li>
+  <li class="divider"></li>
+  <!-- Botón de Modo Oscuro / Claro Móvil -->
+  <li>
+    <a href="#!" id="btn-modo-tema-movil">
+      <i class="material-icons" id="icono-tema-movil">brightness_4</i>Modo oscuro/claro
+    </a>
+  </li>
 </ul>
