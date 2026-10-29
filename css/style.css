@@ -44,6 +44,15 @@
   line-height: 30px;
 }
 
+.quicksand-regular-white {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fffdfd;
+  line-height: 30px;
+}
+
 /* Estilos de la página Avances */
 .botones-interaccion {
   margin: 20px 0;
