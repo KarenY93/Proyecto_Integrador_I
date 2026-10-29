@@ -43,3 +43,51 @@
   color: #000000;
   line-height: 30px;
 }
+
+/* Estilos de la página Avances */
+.botones-interaccion {
+  margin: 20px 0;
+}
+
+.texto-detalle {
+  margin-top: 10px;
+}
+
+.titulo-resumen {
+  margin-top: 30px;
+}
+
+/* Tarjetas y cambio de color con la paleta de la página */
+.tarjeta-avance {
+  background-color: #ffffff !important;
+  border: 2px solid transparent !important;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Color alterno activado por JavaScript (Lavender Blush y borde Wisteria Blue) */
+.tarjeta-avance.color-alterno {
+  background-color: #F7EBEC !important;
+  border: 2px solid #7F96FF !important;
+}
+
+/* Estilos de la página Contacto */
+.card-contacto {
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.mensaje-estado {
+  font-weight: 600;
+  margin-top: 15px;
+  display: none;
+}
+
+.mensaje-exito {
+  color: #2e7d32;
+}
+
+.mensaje-error {
+  color: #c62828;
+}

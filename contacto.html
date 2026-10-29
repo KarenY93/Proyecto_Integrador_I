@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Skyra - Contacto</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header cargado dinámicamente -->
+  <div id="header"></div>
+
+  <div class="container">
+    <br>
+    <h1 class="center coiny-regular">Contáctanos</h1>
+    <p class="center quicksand-regular">¿Tienes dudas o comentarios sobre Skyra? Déjanos un mensaje y te responderemos pronto.</p>
+
+    <!-- Contenedor del Formulario centrado -->
+    <div class="row">
+      <div class="col s12 m8 offset-m2">
+        <div class="card card-contacto z-depth-1">
+          <form id="form-contacto">
+            <div class="row">
+              <!-- Campo: Nombre -->
+              <div class="input-field col s12">
+                <i class="material-icons prefix">person</i>
+                <input id="nombre" type="text" class="validate">
+                <label for="nombre">Nombre completo</label>
+              </div>
+
+              <!-- Campo: Correo -->
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="correo" type="email" class="validate">
+                <label for="correo">Correo electrónico</label>
+              </div>
+
+              <!-- Campo: Mensaje -->
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="mensaje" class="materialize-textarea"></textarea>
+                <label for="mensaje">Escribe tu mensaje</label>
+              </div>
+            </div>
+
+            <!-- Botón de Envío estilizado con Materialize -->
+            <div class="center">
+              <button class="btn waves-effect waves-light wisteria-blue" type="submit">
+                Enviar Mensaje
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+
+            <!-- Mensaje de confirmación o error generado por JS -->
+            <p id="mensaje-respuesta" class="center mensaje-estado"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer deep-navy">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Autores</h5>
+          <p class="grey-text text-lighten-4">
+            Angel Nicolas Castañeda Valencia 202459426<br>
+            Karen Andrea Sanabria Gonzalez 202459413<br>
+            Simon David Tarazona Melo 202459421
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/contacto.js"></script>
+</body>
+
+</html>
+
