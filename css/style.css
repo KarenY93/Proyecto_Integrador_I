@@ -9,8 +9,9 @@
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
 
 /* Colors */
@@ -26,8 +27,6 @@
   background-color: #F7EBEC;
 }
 
-
-
 /* Tipografía */
 .coiny-regular {
   font-family: "Coiny", system-ui;
@@ -42,6 +41,5 @@
   font-weight: 400;
   font-style: normal;
   color: #000000;
+  line-height: 30px;
 }
-
-
