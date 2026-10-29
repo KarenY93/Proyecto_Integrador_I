@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Skyra - Avances</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header cargado dinámicamente -->
+  <div id="header"></div>
+
+  <div class="container">
+    <br>
+    <h1 class="center coiny-regular">Avances del Proyecto</h1>
+    <p class="center quicksand-regular">Lista de los principales avances realizados en el desarrollo del sitio web de Skyra.</p>
+
+    <!-- Botones de Interacción básica en JavaScript -->
+    <div class="center botones-interaccion">
+      <button class="btn wisteria-blue" onclick="toggleDetalles()">
+        <i class="material-icons left">visibility</i>Mostrar / Ocultar detalles
+      </button>
+      <button class="btn deep-navy" onclick="cambiarColor()">
+        <i class="material-icons left">palette</i>Cambiar color
+      </button>
+    </div>
+
+    <!-- Galería de Avances (Materialize Grid System) -->
+    <div class="row">
+      <!-- Avance 1 -->
+      <div class="col s12 m4">
+        <div class="card tarjeta-avance">
+          <div class="card-content">
+            <span class="card-title coiny-regular">Avance 1</span>
+            <p class="quicksand-regular"><strong>Diseño de Marca:</strong> Creación del logo de Skyra y elección de la paleta de colores del sitio.</p>
+            <div id="detalle-1" class="texto-detalle">
+              <p class="grey-text text-darken-2">Se diseñó el logo en formato SVG/WebP y se definieron los colores azul y lavanda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avance 2 -->
+      <div class="col s12 m4">
+        <div class="card tarjeta-avance">
+          <div class="card-content">
+            <span class="card-title coiny-regular">Avance 2</span>
+            <p class="quicksand-regular"><strong>Estructura y Menú:</strong> Creación de las páginas principales y menú de navegación adaptable.</p>
+            <div id="detalle-2" class="texto-detalle">
+              <p class="grey-text text-darken-2">Se implementó el header modular con menú responsive usando Materialize.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avance 3 -->
+      <div class="col s12 m4">
+        <div class="card tarjeta-avance">
+          <div class="card-content">
+            <span class="card-title coiny-regular">Avance 3</span>
+            <p class="quicksand-regular"><strong>Contenido Inicial:</strong> Redacción de la descripción de la aerolínea, misión y visión.</p>
+            <div id="detalle-3" class="texto-detalle">
+              <p class="grey-text text-darken-2">Se completaron las secciones de Inicio y Nosotros con los textos del proyecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lista de Avances (Materialize Collections) -->
+    <h4 class="coiny-regular center titulo-resumen">Resumen</h4>
+    <ul class="collection">
+      <li class="collection-item">
+        <span class="badge green white-text">Listo</span>
+        1. Definición del tema y diseño del logotipo.
+      </li>
+      <li class="collection-item">
+        <span class="badge green white-text">Listo</span>
+        2. Maquetación básica y navegación entre páginas.
+      </li>
+      <li class="collection-item">
+        <span class="badge orange white-text">En proceso</span>
+        3. Secciones de Objetivos y Formulario de Contacto.
+      </li>
+    </ul>
+
+    <br><br>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer deep-navy">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Autores</h5>
+          <p class="grey-text text-lighten-4">
+            Angel Nicolas Castañeda Valencia 202459426<br>
+            Karen Andrea Sanabria Gonzalez 202459413<br>
+            Simon David Tarazona Melo 202459421
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/avances.js"></script>
+</body>
+
+</html>
