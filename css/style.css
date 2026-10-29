@@ -27,6 +27,10 @@
   background-color: #F7EBEC;
 }
 
+.deep-navy-text {
+  color: #001C55; 
+}
+
 /* Tipografía */
 .coiny-regular {
   font-family: "Coiny", system-ui;
